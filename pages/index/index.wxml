@@ -1,0 +1,81 @@
+<!--index.wxml-->
+<view id="top">
+  <view style="float:left;margin:0.5em 0 0 1em;">首页</view>
+  <!--侧边导航栏-->
+  <view id="mobile-menu" class="mobile-nav {{open ? ['c-state'] : ''}}">
+    <view>
+      <navigator url="pages/index.wxml" class="a">首页</navigator>
+      <navigator url="pages/login/login.wxml" class="a">登录</navigator>
+      <navigator url="pages/xiangqing/xiangqing.wxml" class="a">详情</navigator>
+    </view>
+  </view>
+  <!--侧边导航栏按钮-->
+  <view class="nav-btn" bindtap="tap_ch">
+    <mp-icon icon="more" color="white" size="{{25}}" style="float:right;margin:0.5em 1em 0 0;"></mp-icon>
+  </view>
+</view>
+<!--轮播图-->
+<view id="banner">
+  <image src="../../images/轮播图.png"></image>
+</view>
+<!--图标链接-->
+<view id="plinks">
+  <navigator class="plinks" url="#">
+    <image src="../../images/首页2.png"></image>
+    <text>套餐</text>
+  </navigator>
+  <navigator class="plinks" url="#">
+    <image src="../../images/首页3.png"></image>
+    <text>课表</text>
+  </navigator>
+  <navigator class="plinks" url="#">
+    <image src="../../images/首页4.png"></image>
+    <text>VIP</text>
+  </navigator>
+  <navigator class="plinks" url="#">
+    <image src="../../images/首页5.png"></image>
+    <text>锦囊</text>
+  </navigator>
+</view>
+<view id="slide-top">
+  <view id="slide-top-1"> </view>
+  <view id="slide-top-2">直播列表</view>
+  <navigator id="slide-top-3">查看全部 > </navigator>
+</view>
+<view class="page-body">
+  <view class="page-section page-section-spacing swiper">
+    <swiper indicator-dots="{{indicatorDots}}"autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{background}}" wx:key="*this">
+       <swiper-item>
+        <view class="swiper-item {{item}}"></view>
+       </swiper-item>
+     </block>
+    </swiper>
+  </view>
+</view>
+
+
+
+
+<view class="htmlnav">
+  <navigator url="#">
+    <image src="../../images/导航12.png"></image>
+    <text style="color: #7AD5FF">首页</text>
+  </navigator>
+  <navigator url="xuexi.wxml">
+    <image src="../../images/导航21.png"></image>
+    <text>学习</text>
+  </navigator>
+  <navigator url="faxian.wxml">
+    <image src="../../images/导航3.png"></image>
+    <text>发现</text>
+  </navigator>
+  <navigator url="kecheng.wxml">
+    <image src="../../images/导航41.png">
+    </image><text>课程</text>
+  </navigator>
+  <navigator url="wode.wxml">
+    <image src="../../images/导航51.png"></image>
+    <text>我的</text>
+  </navigator>
+</view>
