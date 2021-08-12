@@ -1,4 +1,57 @@
-<!--pages/login/login.wxml-->
-<view>
-  1321321
+<!--login.html-->
+<view id="top">
+  <view style="float:left;margin:0.5em 0 0 1em;">登录</view>
+  <!--侧边导航栏-->
+  <view id="mobile-menu" class="mobile-nav {{open ? ['c-state'] : ''}}">
+    <view>
+      <navigator url="/pages/index/index" class="a">首页</navigator>
+      <navigator url="/pages/login/login" class="a">登录</navigator>
+      <navigator url="/pages/xiangqing/xiangqing" class="a">详情</navigator>
+    </view>
+  </view>
+  <!--侧边导航栏按钮-->
+  <view class="nav-btn" bindtap="tap_ch">
+    <mp-icon icon="more" color="white" size="{{25}}" style="float:right;margin:0.5em 1em 0 0;"></mp-icon>
+  </view>
 </view>
+<view id="login-box">
+  <view class="login-box-detils">
+    <view class="login-pic">
+      <mp-icon icon="me" color="#6AA6E6" size="{{30}}"></mp-icon>
+    </view>
+    <input type="text" placeholder=" 请输入账号"/>
+  </view>
+  <view class="login-box-detils">
+    <view class="login-pic">
+      <mp-icon icon="lock" color="#6AA6E6" size="{{30}}"></mp-icon>
+    </view>
+    <input type="text" placeholder=" 请输入密码" password="true"/>
+  </view>
+  <button>登录</button>
+</view>
+<view id="login-bottom">
+  <navigator url="#">立即注册</navigator>
+  <navigator url="#">忘记密码</navigator>
+</view>
+<view id="footer"></view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

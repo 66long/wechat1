@@ -11,13 +11,14 @@ Page({
     newmark: 0,
     istoright: true,
     //下面为swiper数据
-    background: [],
-    indicatorDots: true,
+    indicatorDots: false,
     vertical: false,
     autoplay: false,
     interval: 2000,
     duration: 500,
-    nextMargin: 0
+    displaymultipleitems:1.5,
+    nextmargin: 0,
+    previousmargin: 0,
   },
 
   // 点击左上角小图标事件
@@ -31,21 +32,5 @@ Page({
               open: true
           });
       }
-  },
-  // 事件处理函数
-  bindViewTap() {
-    
-  },
-  onLoad() {
-    
-  },
-  getUserProfile(e) {
-    
-  },
-  getUserInfo(e) {
-   
-  },
-  tapName: function(){
-    
   }
 })

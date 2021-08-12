@@ -1,0 +1,35 @@
+<!--xiangqing.wxml-->
+<view id="top">
+  <view style="float:left;margin:0.5em 0 0 1em;">产品详情</view>
+  <!--侧边导航栏-->
+  <view id="mobile-menu" class="mobile-nav {{open ? ['c-state'] : ''}}">
+    <view>
+      <navigator url="/pages/index/index" class="a">首页</navigator>
+      <navigator url="/pages/login/login" class="a">登录</navigator>
+      <navigator url="/pages/xiangqing/xiangqing" class="a">详情</navigator>
+    </view>
+  </view>
+  <!--侧边导航栏按钮-->
+  <view class="nav-btn" bindtap="tap_ch">
+    <mp-icon icon="more" color="white" size="{{25}}" style="float:right;margin:0.5em 1em 0 0;"></mp-icon>
+  </view>
+</view>
+<view id="adv">
+  <image src="http://www.tekkadanorga.com/images/%E8%AF%A6%E6%83%851.png"></image>
+  <view id="main1">
+    <text style="color:white;font-size:12px;">零基础入门Premiere\n</text>
+    <text style="color:grey;font-size:10px;">全年爆单，快速提升软件能力，从此不加班...</text>
+    <view id="text"></view>
+    <text style="color:white;font-size:10px;">黄老师</text>
+  </view>
+</view>
+<view id="title1">课程详情</view>
+<view id="main2">
+  <view class="main2-title">课程介绍</view>
+  <view class="main2-detils">这是一篇关于AI变换知识总结的一门技巧，通过AI变换功能，可以把简单的图形变换得高大上有没有，快来围观老师是怎么做的吧；</view>
+  <view class="main2-detils">这是一篇关于AI变换知识总结的一门技巧，通过AI变换功能，可以把简单的图形变换得高大上有没有，快来围观老师是怎么做的吧；</view>
+  <view class="main2-title">课程目录</view>
+  <view class="main2-detils2">01 公开课：如何增强科技技能与方法论</view>
+  <view class="main2-detils2">02 色彩认知：对于色彩的认知你知道哪些</view>
+  <view class="main2-detils2">03 快速入手：简单易懂，带你玩转设计图</view>
+</view>

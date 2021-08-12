@@ -1,1 +1,50 @@
 /* pages/login/login.wxss */
+#login-box{
+  width: 290px;
+  height: 259px;
+  background-image: url(http://www.tekkadanorga.com/images/%E7%99%BB%E5%BD%953.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 50px 12px 0 12px;
+  position: absolute;
+  border-radius: 9px;
+  box-shadow: 10px 10px 2px #A9A6C9;
+}
+.login-pic{
+  width:40px;
+  height:40px;
+  background-color:#524CB4;
+  text-align: center;
+  line-height: 40px;
+  float: left;
+}
+.login-box-detils{
+  margin: 10% 15%;
+  overflow: hidden;
+}
+.login-box-detils input{
+  width: 80%;
+  height: 40px;
+  background-color: white;
+  overflow: hidden;
+}
+#login-box button{
+  background-color: #524CB4;
+  color: white;
+  border-radius: 25px;
+}
+#login-bottom{
+  position: absolute;
+  margin-top: 105%;
+}
+#login-bottom navigator{
+  float: left;
+  margin-left: 60px;
+  color: #393484;
+}
+#footer{
+  background: url(http://www.tekkadanorga.com/images/%E7%99%BB%E5%BD%952.png)no-repeat center bottom;
+  width: 100%;
+  height: 120px;
+  margin-top: 375px;
+}

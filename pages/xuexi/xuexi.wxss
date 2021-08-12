@@ -1,0 +1,33 @@
+/* pages/xuexi/xuexi.wxss */
+#top-t{
+  margin: 0 auto;
+  width: 90%;
+  height: 100px;
+  background-color: white;
+}
+.top-item{
+  width: 25%;
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 12px;
+  color: rgba(107,107,107,1.00);
+}
+.top-item image{
+  width: 80%;
+  height: 60px;
+  margin: 0 auto;
+  transform: scale(0.8);
+}
+#gift{
+  width: 80%;
+  height: 45px;
+  margin: 0 auto;
+  background-color: #393484;
+  margin-top: 10px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 45px;
+  color: white;
+}

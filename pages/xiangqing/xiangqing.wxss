@@ -1,0 +1,65 @@
+/* pages/xiangqing/xiangqing.wxss */
+#adv{
+  width: 100%;
+  height: 330px;
+  overflow: hidden;
+  position: relative;
+}
+#adv image{
+  margin: 5px 0 0 -93px;
+  width: 100%;
+  transform: scale(1.3);
+  position: relative;
+}
+#main1{
+  margin-top:18px;
+  background-color:#393484;
+  width:82.5%;
+  border-bottom-right-radius:15px;
+}
+#adv text{
+  position: relative;
+}
+#text{
+  width:12px;
+  height:12px;
+  background-color: greenyellow;
+  border-radius: 50px;
+  display:inline-block;
+  margin-left:10px;
+  margin-right:5px;
+}
+#title1{
+  font-size: 18px;
+  margin: 0 0 11px 13px;
+  font-weight: 600;
+  text-shadow: -1px 2px 3px;
+}
+#main2{
+  margin: 0 auto;
+  width: 90%;
+  height: 200px;
+  background:url(http://www.tekkadanorga.com/images/%E8%AF%A6%E6%83%852.png)no-repeat;
+  background-size: contain;
+}
+.main2-title{
+  list-style: disc;
+  color: white;
+  margin-left: 10px;
+  font-size: 14px;
+}
+.main2-detils{
+  font-size: 10px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  color: white;
+  margin: 3px 0 3px 10px;
+}
+.main2-detils2{
+  font-size: 10px;
+  overflow: hidden;
+  color: white;
+  margin: 0 0 0 10px;
+}

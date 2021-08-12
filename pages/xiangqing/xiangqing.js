@@ -1,6 +1,5 @@
-// pages/login/login.js
+// pages/xiangqing/xiangqing.js
 Page({
-
   data:{
     open: true,
     // mark 是指原点x轴坐标
